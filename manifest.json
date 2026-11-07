@@ -1,0 +1,12 @@
+{
+    "display_name": "Divisor de Parágrafos + Cortador",
+    "loading_order": 100,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "YasminIsis",
+    "version": "1.2.0",
+    "homePage": "https://github.com/YasminIsis/SillyTavern-ParagraphBreaker",
+    "auto_update": true
+}

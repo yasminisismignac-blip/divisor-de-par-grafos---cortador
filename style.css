@@ -1,0 +1,128 @@
+/* ============================================================
+   Paragraph Breaker + Fluff Trimmer — Extension Styles
+   ============================================================ */
+
+/* Settings panel drawer */
+#paragraph_breaker_settings .inline-drawer-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#paragraph_breaker_settings .inline-drawer-content label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95em;
+    cursor: pointer;
+}
+
+#paragraph_breaker_settings .inline-drawer-content label input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+/* Section titles */
+#paragraph_breaker_settings .pb-section-title {
+    font-weight: 700;
+    font-size: 1em;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    color: var(--SmartThemeBodyColor, #ddd);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+#paragraph_breaker_settings .pb-section-title i {
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+/* Divider between sections */
+#paragraph_breaker_settings .pb-divider {
+    border: none;
+    border-top: 1px solid var(--SmartThemeBorderColor, #444);
+    margin: 6px 0;
+}
+
+/* Slider groups */
+#paragraph_breaker_settings .pb-slider-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#paragraph_breaker_settings .pb-slider-group > label {
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+#paragraph_breaker_settings .pb-slider-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#paragraph_breaker_settings .pb-slider-row input[type="range"] {
+    flex: 1;
+}
+
+#paragraph_breaker_settings .pb-slider-row .pb-slider-value {
+    min-width: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.95em;
+    color: var(--SmartThemeBodyColor, #ccc);
+}
+
+/* Select dropdown for aggressiveness */
+#paragraph_breaker_settings select.text_pole {
+    width: 100%;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    background: var(--SmartThemeBlurTintColor, #222);
+    color: var(--SmartThemeBodyColor, #ccc);
+    border: 1px solid var(--SmartThemeBorderColor, #555);
+}
+
+/* Info boxes */
+#paragraph_breaker_settings .pb-info {
+    font-size: 0.82em;
+    opacity: 0.65;
+    line-height: 1.4;
+    padding-top: 4px;
+}
+
+#paragraph_breaker_settings .ft-info-top {
+    background: var(--SmartThemeBlurTintColor, rgba(255,255,255,0.04));
+    padding: 8px 10px;
+    border-radius: 6px;
+    border-left: 3px solid var(--SmartThemeQuoteColor, #888);
+    opacity: 0.85;
+    margin-bottom: 2px;
+}
+
+/* Reprocess button */
+#pb_reprocess_btn {
+    margin-top: 6px;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9em;
+    background: var(--SmartThemeBlurTintColor, #333);
+    color: var(--SmartThemeBodyColor, #ccc);
+    border: 1px solid var(--SmartThemeBorderColor, #555);
+    transition: background 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+}
+
+#pb_reprocess_btn:hover {
+    background: var(--SmartThemeQuoteColor, #555);
+}
